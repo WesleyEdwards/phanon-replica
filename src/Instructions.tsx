@@ -1,4 +1,4 @@
-import { Card, Divider, Stack, Typography } from "@mui/joy";
+import { Card, Divider, Typography } from "@mui/joy";
 import { FC } from "react";
 import { usePyIOContext } from "./PyIOContext";
 import Markdown from "react-markdown";

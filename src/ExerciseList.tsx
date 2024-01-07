@@ -3,7 +3,6 @@ import { Grid, IconButton } from "@mui/joy";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import { usePyIOContext } from "./PyIOContext";
 import { exercisesMod } from "./exercises/phanon-mod";
-import Markdown from "react-markdown";
 
 export const ExerciseList = () => {
   const { currExercise, setCurrExercise } = usePyIOContext();
